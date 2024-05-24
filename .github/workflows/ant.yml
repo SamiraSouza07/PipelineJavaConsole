@@ -23,10 +23,9 @@ jobs:
       
     - name: Executar
       run: java src/Main.java
-      
-    - uses: mr-smithers-excellent/docker-build-push@v6
     
     - name: Build & push Docker image
+    - uses: mr-smithers-excellent/docker-build-push@v6
       with:
         image: samirasouza/image_java_console
         tags: v1, 1.0
