@@ -30,7 +30,7 @@ jobs:
         image: samirasouza/image_java_console
         tags: v1, 1.0
         registry: docker.io
-        dockerfile: Dockerfile.ci
+        dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
