@@ -22,4 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Compilando
-      run: javac PipelineJavaConsole.java
+      run: javac src/Main.java
