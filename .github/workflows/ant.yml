@@ -23,3 +23,5 @@ jobs:
         distribution: 'temurin'
     - name: Compilando
       run: javac src/Main.java
+    - name: Executar
+      run: java src/Main.java
